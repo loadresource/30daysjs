@@ -23,7 +23,7 @@ body {
     justify-content: center;
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding: 60px;
     margin: 5px;
     background: #eee;
     border: 2px solid #ccc;
@@ -34,6 +34,13 @@ body {
     cursor: pointer;
     transition: border 0.2s, transform 0.2s;
 }
+
+li{
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 /* Animación para la clase .key.active */
 .playing {
