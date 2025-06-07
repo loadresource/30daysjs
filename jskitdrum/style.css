@@ -1,0 +1,43 @@
+body {
+    width: clamp(16/9);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.keys {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    background: #eee;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: border 0.2s, transform 0.2s;
+}
+
+/* Animación para la clase .key.active */
+.playing {
+    transition: .2s;
+    border: 2px solid gold;
+    transform: scale(1.1);
+}
