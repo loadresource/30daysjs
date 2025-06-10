@@ -1,0 +1,7 @@
+body{
+    width: clamp(16/9);
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    place-items: center;
+}
