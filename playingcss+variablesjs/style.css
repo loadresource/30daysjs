@@ -1,7 +1,22 @@
+:root{
+    --basecolor:#ffff
+    --spacing:#ffff
+    --blur:#ffff
+}
+
+
 body{
     width: clamp(16/9);
-    height: auto;
+    height: 100vh;
     flex-direction: column;
     display: flex;
     place-items: center;
+}
+ul{
+    padding: 0;
+}
+.control{
+    display: inherit;
+    width: 100%;
+    justify-content: space-around;
 }
