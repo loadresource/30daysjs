@@ -10,22 +10,22 @@
     <h1>update css variables with js</h1>
 
     <ul class="control">
-        <label>
-            <p>spacing</p>
-            <input type="range" name="spacing" min="0" max="100" value="10">
+        <label for="spacing">
+            spacing
+            <input type="range" name="spacing" min="0" max="100" value="10" data-sizing="px">
         </label>
-        <label>
-            <p>blur</p>
-            <input type="range" name="blur" min="0" max="25" value="10">
+        <label for="blur">
+            blur
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
         </label>
-        <label>
-            <p>base color</p>
+        <label for="base">
+            base color
             <input type="color" name="base" value="#ffc600">
         </label>
     </ul>
     <div class="mask">
         <img src="https://picsum.photos/200/300" alt="">
     </div>
-
+<script src="./app.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 :root{
-    --basecolor:#ffff
-    --spacing:#ffff
-    --blur:#ffff
+    --base: #fff
+    --spacing:10px
+    --blur:10px
 }
 
 
@@ -21,4 +21,8 @@ ul{
     justify-content: space-around;
 }
 
-.mask{}
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
